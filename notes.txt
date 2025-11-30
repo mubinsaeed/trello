@@ -1,0 +1,19 @@
+https://primeng.org/
+https://sass-lang.com/guide/
+https://sass-lang.com/guide/https://sass-lang.com/guide/
+https://www.youtube.com/watch?v=Q0WJd7JNxEs
+https://radixweb.com/blog/typescript-vs-javascript
+https://www.youtube.com/watch?v=HCXPJmtV47I
+https://www.geeksforgeeks.org/typescript/difference-between-typescript-and-javascript/
+https://angular.dev/installation
+https://www.youtube.com/watch?v=3dHNOWTI7H8
+
+Plugins
+Angular Essentials
+Angular Extension Pack
+SonarQube
+Angular Language Service
+Angular Schematics
+Angular Material 2, Flex layout 1, Covalent
+Angular Snippets
+Auto Close Tag
