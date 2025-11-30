@@ -6,7 +6,7 @@ import { Homepage } from '../views/homepage/homepage';
   selector: 'app-root',
   imports: [RouterOutlet, Homepage],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.scss',
 })
 export class App {
   protected readonly title = signal('trello');

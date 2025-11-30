@@ -1,22 +1,19 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, signal } from '@angular/core';
 import { Navbar } from '../../components/navbar/navbar';
-
+import { Button } from '../../components/button/button';
 
 @Component({
   selector: 'home-page',
-  imports: [CommonModule, Navbar],
+  imports: [CommonModule, Navbar, Button],
   templateUrl: './homepage.html',
-  styleUrl: './homepage.scss'
+  styleUrl: './homepage.scss',
 })
-export class Homepage  implements OnInit {
+export class Homepage implements OnInit {
+  ngOnInit(): void {}
 
-    ngOnInit(): void {
-
-    }
-
-    testFunc(val:string): string {
-            val+= "This is testing";
-            return val;
-    }
+  testFunc(val: string): string {
+    val += 'This is testing';
+    return val;
+  }
 }

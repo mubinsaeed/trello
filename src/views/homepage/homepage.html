@@ -1,4 +1,29 @@
 <div>
-    <app-navbar></app-navbar>
-    <div class="px-2 py-4 bg-blue-200 text-center ">Accelerate your teams' work with AI features 🤖 now available for all Premium and Enterprise! Learn more.</div>
+  <app-navbar></app-navbar>
+  <div class="px-2 py-4 bg-blue-200 text-center">
+    Accelerate your teams' work with AI features 🤖 now available for all Premium and Enterprise!
+    Learn more.
+  </div>
+  <section class="bg-gray-100 grid grid-cols-2 pt-10 videoplayersection items-center">
+    <div class="">
+      <div class="font-bold text-5xl p-4" style="padding-left: 4rem; padding-right: 4rem">
+        Capture, organize, and tackle your to-dos from anywhere.
+      </div>
+      <div>Escape the clutter and chaos—unleash your productivity with Trello.</div>
+      <div>
+        <input
+          type="email"
+          placeholder="Email"
+          class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
+        />
+        <app-button
+          btnText="Sign up - it's free!"
+          styleClass="mx-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        ></app-button>
+      </div>
+    </div>
+    <video width="640" height="300" autoplay muted playsinline>
+      <source src="assets/updatedhero-mobile-final.mp4" type="video/mp4" />
+    </video>
+  </section>
 </div>
