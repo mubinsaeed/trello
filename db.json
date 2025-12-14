@@ -1,0 +1,28 @@
+{
+  "boards": [
+    {
+      "id": 1,
+      "name": "My Personal Board",
+      "description": "A simple personal board for tracking tasks and projects.",
+      "status": "today",
+      "createdAt": "2025-12-14T09:00:00Z",
+      "updatedAt": "2025-12-14T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Learning Tasks",
+      "description": "Things I want to learn or practice",
+      "status": "thisWeek",
+      "createdAt": "2025-12-13T10:30:00Z",
+      "updatedAt": "2025-12-14T08:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Side Projects",
+      "description": "Ideas to work on later",
+      "status": "later",
+      "createdAt": "2025-12-10T12:00:00Z",
+      "updatedAt": "2025-12-12T14:00:00Z"
+    }
+  ]
+}
