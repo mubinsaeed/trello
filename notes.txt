@@ -17,3 +17,7 @@ Angular Schematics
 Angular Material 2, Flex layout 1, Covalent
 Angular Snippets
 Auto Close Tag
+
+
+
+listeners, control flow, lifecycle
