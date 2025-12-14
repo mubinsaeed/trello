@@ -1,8 +1,38 @@
 .mat-grid {
-  background-color: pink;
+  background: linear-gradient(135deg, #ff9ce1, #9b59b6);
   padding: 10%;
+  min-height: 100vh;
 }
 
+/* mat-grid-list itself */
 .mat-grid1 {
-  background-color: purple;
+  background-color: transparent; /* let gradient show */
+}
+
+/* Different background colors */
+.today {
+  background-color: #fff9c4; /* light yellow */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.thisweek {
+  background-color: #dcedc8; /* light green */
+}
+
+.later {
+  background-color: #ffffff; /* white */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Optional: subtle border to columns */
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 18px;
 }

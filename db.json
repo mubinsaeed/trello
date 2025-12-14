@@ -4,7 +4,7 @@
       "id": 1,
       "title": "My Personal Board",
       "description": "A simple personal board for tracking tasks and projects.",
-      "status": "today",
+      "status": "later",
       "createdAt": "2025-12-14T09:00:00Z",
       "updatedAt": "2025-12-14T09:00:00Z"
     },
@@ -49,6 +49,15 @@
       "status": "later",
       "createdAt": "2025-12-10T12:00:00Z",
       "updatedAt": "2025-12-12T14:00:00Z"
+    },
+
+    {
+      "id": 12,
+      "title": "My testing expanding",
+      "description": "A simple personal board for tracking tasks and projects.",
+      "status": "later",
+      "createdAt": "2025-12-14T09:00:00Z",
+      "updatedAt": "2025-12-14T09:00:00Z"
     }
   ]
 }
