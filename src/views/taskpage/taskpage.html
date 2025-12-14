@@ -2,7 +2,7 @@
   <mat-grid-list cols="3" gutterSize="16px" class="mat-grid1">
     <mat-grid-tile>
       <div class=" column today flex flex-col w-full justify-start items-center h-full p-5">
-        <div>Today</div>
+        <div class="font-bold">Today</div>
         <app-card
           *ngFor="let card of todayCards"
           [title]="card.title"
@@ -15,7 +15,7 @@
 
     <mat-grid-tile>
       <div class="column thisweek flex flex-col w-full justify-start items-center h-full p-5">
-        <div>ThisWeek</div>
+        <div class="font-bold">ThisWeek</div>
         <app-card
           *ngFor="let card of thisWeekCards"
           [title]="card.title"
@@ -28,7 +28,7 @@
 
     <mat-grid-tile>
       <div class="column later flex flex-col w-full justify-start items-center h-full p-5">
-        <div>Later</div>
+        <div class="font-bold">Later</div>
         <app-card
           *ngFor="let card of laterCards"
           [title]="card.title"
