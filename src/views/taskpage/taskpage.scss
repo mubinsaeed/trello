@@ -1,8 +1,25 @@
 .mat-grid {
-  background-color: pink;
+  background: linear-gradient(135deg, #ff9ce1, #9b59b6);
   padding: 10%;
 }
 
 .mat-grid1 {
-  background-color: purple;
+  background-color: transparent;
+}
+
+.column{
+  border-radius: 18px;
+}
+
+.today {
+  background-color: #fff9c4;
+}
+
+.thisweek {
+  background-color: #dcedc8; /* light green */
+}
+
+.later {
+  background-color: #ffffff; /* white */
+
 }
